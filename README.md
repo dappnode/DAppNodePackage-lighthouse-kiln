@@ -1,1 +1,1 @@
-# DAppNodePackage-prysm-kiln
+# DAppNodePackage-lighthouse-kiln

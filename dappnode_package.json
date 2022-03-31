@@ -1,0 +1,34 @@
+{
+  "name": "lighthouse-kiln.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "v2.1.5",
+  "architectures": ["linux/amd64"],
+  "upstreamRepo": "sigp/lighthouse",
+  "shortDescription": "Lighthouse is an Ethereum 2.0 client for the kiln testnet",
+  "description": "Lighthouse is an Ethereum 2.0 client that connects to other Ethereum 2.0 clients to form a resilient and decentralized proof-of-stake blockchain.",
+  "type": "service",
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "pablo <pablo@dappnode.io> (https://github.com/pablomendezroyo)",
+    "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)",
+    "tropicar <tropicar@dappnode.io> (https://github.com/tropicar)"
+  ],
+  "categories": ["Blockchain", "ETH2.0"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigp/lighthouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sigp/lighthouse/issues"
+  },
+  "links": {
+    "ui": "http://ui.web3signer-kiln.dappnode?signer_url=http://web3signer.web3signer-kiln.dappnode:9000",
+    "homepage": "https://lighthouse-book.sigmaprime.io",
+    "readme": "https://github.com/sigp/lighthouse/blob/stable/README.md",
+    "docs": "https://lighthouse-book.sigmaprime.io/"
+  },
+  "license": "GPL-3.0",
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.51"
+  }
+}

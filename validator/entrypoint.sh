@@ -5,7 +5,7 @@ WARN="[ WARN ]"
 INFO="[ INFO ]"
 
 CLIENT="lighthouse"
-NETWORK="prater"
+NETWORK="kiln"
 
 # Checks the following vars exist or exits:
 function ensure_envs_exist() {
@@ -18,7 +18,7 @@ function ensure_envs_exist() {
     [ ! -z "$GRAFFITI" ] && export EXTRA_OPTS="${EXTRA_OPTS} --graffiti='${GRAFFITI}'" # Concatenate EXTRA_OPTS with existing var, otherwise supervisor will throw error
 }
 
-# - Endpoint: http://web3signer.web3signer-prater.dappnode:9000/eth/v1/keystores
+# - Endpoint: http://web3signer.web3signer-kiln.dappnode:9000/eth/v1/keystores
 # - Returns:
 # { "data": [{
 #     "validating_pubkey": "0x93247f2209abcacf57b75a51dafae777f9dd38bc7053d1af526f220a7489a6d3a2753e5f3e8b1cfe39b56f43611df74a",

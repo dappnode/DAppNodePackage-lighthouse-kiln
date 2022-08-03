@@ -1,7 +1,7 @@
 {
   "name": "lighthouse-kiln.dnp.dappnode.eth",
   "version": "0.1.0",
-  "upstreamVersion": "v2.1.5",
+  "upstreamVersion": "v2.5.1",
   "architectures": ["linux/amd64"],
   "upstreamRepo": "sigp/lighthouse",
   "shortDescription": "Lighthouse is an Ethereum 2.0 client for the kiln testnet",
